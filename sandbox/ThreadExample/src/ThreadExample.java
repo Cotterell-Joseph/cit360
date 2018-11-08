@@ -41,10 +41,10 @@ public class ThreadExample {
     static class Task implements Callable<Integer> {
         @Override
         public Integer call() throws Exception {
-            //Simulate a delay in the task. You can toggle a standard wait time, or utilize a variable wait.
+            //Simulate a delay in the task. You can toggle a fixed wait time, or utilize a variable wait.
             long threadId = Thread.currentThread().getId();
-            long wait = threadId * 50;
-            //long wait = 500;
+            long wait = threadId * 50; //Variable
+            //long wait = 500; //Fixed
             System.out.println("Thread ID is: " + threadId + ", Delay is: " + wait + "ms");
             Thread.sleep(wait);
             return new Random().nextInt(1000) + 1;
