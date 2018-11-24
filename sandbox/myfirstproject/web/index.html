@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--
+This is the initial landing page that will do a post and will trigger the
+servlet 'ServletDemo'. The post will include the user field and pass field.
+-->
+<html>
+    <head>
+        <title>Servlet Demo - Cotterell</title>
+    </head>
+    <body>
+        <h2>Welcome to my Servlet Demo</h2>
+        <p>
+            First try Joe/password to simulate a failed login.</br>
+            Next try Joe/SecurePassword to simulate a successful login.</br>
+        </p>
+        <form method="post" action="ServletDemo">
+            Name: <input type="text" name="user"></br>
+            Password: <input type="password" name="pass"></br>
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
