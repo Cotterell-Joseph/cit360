@@ -1,0 +1,4 @@
+[{"asset":{"ciName":"Computer1","serialNumber":"000-00000","macAddress":"000000000000","model":"HP GX270","ipAddress":"0.0.0.0","locationID":100}},
+{"asset":{"ciName":"Computer2","serialNumber":"111-11111","macAddress":"111111111111","model":"HP GX270","ipAddress":"1.1.1.1","locationID":200}},
+{"asset":{"ciName":"Computer3","serialNumber":"222-22222","macAddress":"222222222222","model":"HP GX280","ipAddress":"2.2.2.2","locationID":300}},
+{"asset":{"ciName":"Computer4","serialNumber":"333-33333","macAddress":"333333333333","model":"HP GX290","ipAddress":"3.3.3.3","locationID":400}}]
